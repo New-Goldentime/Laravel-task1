@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/../../Shopifytheme/Portfolio/.idea/Portfolio.iml" filepath="$PROJECT_DIR$/../../Shopifytheme/Portfolio/.idea/Portfolio.iml" />
+      <module fileurl="file://F:/Shopify/build/.idea/build.iml" filepath="F:/Shopify/build/.idea/build.iml" />
+    </modules>
+  </component>
+</project>
