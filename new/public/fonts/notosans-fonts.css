@@ -1,0 +1,19 @@
+@font-face {
+    font-family: 'Noto Sans Japanese';
+    font-style: normal;
+    font-weight: 400;
+    src: url('NotoSansCJKjp-Regular.woff2') format('woff2'),
+    url('NotoSansCJKjp-Regular.woff') format('woff'),
+    url('NotoSansCJKjp-Regular.ttf')  format('truetype'),
+    url('NotoSansCJKjp-Regular.eot') format('embedded-opentype');
+}
+
+@font-face {
+    font-family: 'Noto Sans Japanese';
+    font-style: normal;
+    font-weight: bold;
+    src: url('NotoSansCJKjp-Bold.woff2') format('woff2'),
+    url('NotoSansCJKjp-Bold.woff') format('woff'),
+    url('NotoSansCJKjp-Bold.ttf')  format('truetype'),
+    url('NotoSansCJKjp-Bold.eot') format('embedded-opentype');
+}
