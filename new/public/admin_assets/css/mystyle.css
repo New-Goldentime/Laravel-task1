@@ -1,0 +1,305 @@
+@font-face {
+    font-family: 'Noto Sans CJK JP';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../../fonts/NotoSansCJKjp-Regular.woff2') format('woff2'),
+    url('../../fonts/NotoSansCJKjp-Regular.woff') format('woff'),
+    url('../../fonts/NotoSansCJKjp-Regular.ttf')  format('truetype'),
+    url('../../fonts/NotoSansCJKjp-Regular.eot') format('embedded-opentype');
+}
+
+@font-face {
+    font-family: 'Noto Sans CJK JP';
+    font-style: normal;
+    font-weight: bold;
+    src: url('../../fonts/NotoSansCJKjp-Bold.woff2') format('woff2'),
+    url('../../fonts/NotoSansCJKjp-Bold.woff') format('woff'),
+    url('../../fonts/NotoSansCJKjp-Bold.ttf')  format('truetype'),
+    url('../../fonts/NotoSansCJKjp-Bold.eot') format('embedded-opentype');
+}
+
+html, body {
+  overflow-x: hidden;
+  background-color: rgb(249, 249, 249);}
+
+body {
+  position: relative;
+  background: #d9e0e7;
+  font-family: "Noto Sans CJK JP";
+  color: #000;
+  line-height: 1.33; }
+
+.nav-profile .image img {
+  padding-top: 30px;
+  padding-bottom: 0px;
+}
+
+.sidebar a {
+  font-size: 16px;
+}
+
+.login-header .brand img {
+  width: 100%;
+  height: 100%;
+  padding-bottom: 10px;
+}
+
+table .btn {
+  font-weight: 300; !important;
+}
+
+table p {
+  font-size: 13px;
+  margin-bottom: 0;
+}
+
+table .checkbox.checkbox-css {
+  float: right;
+}
+
+.news-create .form-group {
+  padding: 20px 30px 0px 30px;}
+  .news-create .form-group label {
+    font-size: 18px;}
+  .news-create .form-group input {
+    height: 40px;}
+  .news-create .form-group textarea {
+    right: 40px;}
+  .news-create .btn{
+    font-size: 16px;
+    font-weight: 400;
+    height: 30px;
+    width: 100px;
+    float: right;}
+
+.news-panel {
+  background-color: #FFFFFF;
+  margin: 20px 0px 0px 0px;}
+  .news-panel .news-title {
+    padding: 30px 0px 0px 30px;
+    font-size: 16px;
+    font-weight: 400;}
+  .news-panel .news-time {
+    padding: 34px 0px 0px 30px;
+    font-size: 13px;
+    font-weight: 400;}
+  .news-panel .news-content {
+    font-size: 13px;
+    margin: 0px 10px 10px 30px;}
+  .news-panel .btn{
+    font-size: 16px;
+    font-weight: 400;
+    height: 30px;
+    width: 100px;
+    float: right;}
+
+.button-more {
+  width: 250px;
+  margin: 50px 50px 50px 0px;}
+
+.font-bold {
+  font-weight: bold;
+}
+
+.font-16 {
+  font-size: 16px;
+}
+
+.font-12 {
+  font-size: 12px;
+}
+
+.line-height-2 {
+  line-height: 2em;
+}
+
+.page-header {
+  margin-bottom: 30px;
+}
+
+.panel.panel-inverse {
+  box-shadow: 0px 1px 4px 1px rgba(0, 0, 0, 0.18);
+  border-radius: 5px;
+  margin-bottom: 50px;}
+.panel.panel-inverse.news-panel {
+  margin-bottom: 10px;}
+
+.panel-inverse>.panel-heading {
+  background: #2d353c;
+}
+
+textarea {
+  resize: none !important;
+}
+
+.center-item {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+}
+
+.panel-body .table.table-striped {
+  border-style: solid;
+  border-width: 1px;
+  font-size: 13px;
+}
+
+.content div .nav.nav-tabs {
+  font-size: 16px;
+}
+
+.content div .nav.nav-tabs .nav-items a{
+  line-height: 2em;
+}
+
+.panel.panel-inverse .nav.nav-tabs {
+  font-size: 16px;
+  background-color: #2d353c;
+}
+
+.panel-body table tbody tr td{
+  vertical-align: middle;
+}
+
+.panel-body table tbody .odd.gradeX td.small-menu{
+  width: 10%;
+}
+.panel-body table tbody tr td.small-menu div button{
+  width: 150px;
+}
+
+
+.button-group {
+  padding: 0px 30px;
+  display: flex;
+  flex-direction: column;
+}
+
+.nav.menu .has-sub a i {
+  margin-top: 3px;
+}
+.nav.menu .has-sub.active a i {
+  margin-top: 3px;
+  color: #46b084;
+}
+
+.nav.menu li a span {
+  margin-left: 10px;
+}
+
+.table .dropdown-menu {
+  min-width: 100% !important;
+}
+
+.btn-group a:nth-child(2) {
+  color: #000 !important;
+}
+
+.table td i {
+  color: #00acac;
+  padding-left: 10px;
+}
+
+.align-item-bottom {
+  display: flex;
+  align-items: flex-end;
+}
+
+.align-item-center {
+  display: flex;
+  align-items: center;
+}
+
+/*pager {
+  text-align: center !important;
+  padding: 10px 0 !important; }
+.pager li {
+  display: inline !important;
+  width: 32px !important;
+  height: 32px !important;
+  border-radius: 16px !important;
+  line-height: 32px !important;
+  margin: 10px 3px !important;
+  text-decoration: none !important;
+  color: #333 !important; }
+.pager li.active {
+  background-color: #007bff !important;
+  color: #fff !important; }
+
+.pagination {
+  display: flex !important;
+  justify-content: center !important;
+  padding-left: 0 !important;
+  list-style: none !important;
+}
+
+.page-link {
+  position: relative !important;
+  display: block !important;
+  padding: 0.5rem !important;
+  padding-right: 0.75rem !important;
+  padding-left: 10px !important;
+  margin-left: -1px !important;
+  line-height: 1.25 !important;
+  color: #007bff !important;
+  border-radius: 16px !important;
+  text-decoration: none !important;
+}
+
+.page-link:hover {
+  z-index: 2 !important;
+  color: #007bff !important;
+  text-decoration: none !important;
+  background-color: #007bff3d !important;
+}
+
+.page-link:focus {
+  z-index: 3 !important;
+  outline: 0 !important;
+  box-shadow: 0 0 0 0.2rem rgba(52, 144, 220, 0.25) !important;
+}
+
+.page-item:first-child .page-link {
+  margin-left: 0 !important;
+  display: none !important;
+  border-top-left-radius: 0.25rem !important;
+  border-bottom-left-radius: 0.25rem !important;
+}
+
+.page-item:last-child .page-link {
+  display: none !important;
+  border-top-right-radius: 0.25rem !important;
+  border-bottom-right-radius: 0.25rem !important;
+}
+
+.page-item.active .page-link {
+  z-index: 3 !important;
+  color: #fff !important;
+  background-color: #007bff !important;
+}
+
+.page-item.disabled .page-link {
+  color: #007bff !important;
+  pointer-events: none !important;
+  cursor: auto !important;
+}*/
+
+ul.pagination {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.no-data {
+  color: #848484;
+  font-size: 20px !important;
+  line-height: normal;
+  padding: 10px 0px 10px 0px;
+  text-align: center;
+}
+
+.user-status-button p {
+  padding-top: 5px;
+  font-size: 14px;
+}
